@@ -1,0 +1,13 @@
+Ext.define('FirstApp.view.PlacesContainer',{
+    extend:'Ext.NavigationView',
+    xtype:'placesContainer',
+    config:{
+        title:'Places',
+        iconCls:'maps',
+        items:[
+            {
+                xtype:'places'
+            }
+        ]
+    }
+})

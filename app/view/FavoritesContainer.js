@@ -1,0 +1,13 @@
+Ext.define('FirstApp.view.FavoritesContainer',{
+    extend:'Ext.NavigationView',
+    xtype:'favoritesContainer',
+    config:{
+        title:'Favorites',
+        iconCls:'star',
+        items:[
+            {
+                xtype:'favorites'
+            }
+        ]
+    }
+})
